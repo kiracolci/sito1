@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            padding: 20px;
+            background-color: #F4C2C2;
+        }
+        .text-above {
+            font-family: "Rubik Mono One", serif;
+            font-size: 22px;
+            text-align: center;
+            margin-bottom: 10px;
+            color: #B66A6A; /* Dark pink text */
+            font-weight: bold;
+        }   
+        .text-below {
+            font-family: "Rubik Mono One", serif;
+            font-size: 18px;
+            text-align: center;
+            color: #B66A6A; /* Dark pink text */
+        }
+        .next-button {
+            font-family: "Rubik Mono One", serif;
+            font-weight: bold;
+            font-style: normal;
+            background-color: white;
+            color: #B66A6A; /* Dark pink text */
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-top: 15px;
+        }
+        .next-button:hover {
+            background-color: #f8a8a8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="text-above">HO FATTO QUESTO SITO</p>
+        <p class="text-below">per te con HTML,</p>
+        <p class="text-below">clicca il bottone</p>
+        <button class="next-button" onclick="goToNextPage()">NEXT</button>
+    </div>
+
+    <script>
+        function goToNextPage() {
+            window.location.href = 'next.html';
+        }
+    </script>
+</body>
+</html>

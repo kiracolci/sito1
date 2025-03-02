@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            padding: 20px;
+            background-color: #E6B0B0; /* Slightly darker than #F4C2C2 */
+        }
+        .message {
+            font-size: 20px;
+            font-family: "Rubik Mono One", serif;
+            font-weight: 400;
+            font-style: normal;
+            max-width: 90%;
+            white-space: pre-line;
+            line-height: 1.5;
+            color: #B66A6A; /* Darker shade for contrast */
+            margin: 20px 0;
+        }
+        .read-button {
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 14px;
+            font-family: "Rubik Mono One", serif;
+            font-weight: 400;
+            font-style: normal;
+            background-color: #B66A6A;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: 0.3s;
+            width: 120px;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .read-button:hover {
+            background-color: #964B4B;
+        }
+        .read-button span {
+            display: block;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        Ho coded questo sito perché I am shy
+        e ti ho scritto una poesia
+        però sono shy a mandartela su WhatsApp.
+    </div>
+    <button class="read-button" onclick="window.location.href='poem.html'">
+        <span>Open to Read</span>
+    </button>
+</body>
+</html>

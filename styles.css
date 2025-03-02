@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F4C2C2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+.next-button {
+    font-family: "Rubik Mono One", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.next-button:hover {
+    background-color: #ffb6b6;
+}
